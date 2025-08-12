@@ -4,7 +4,7 @@ import json
 import requests
 
 
-TOKEN = os.getenv("GITHUB_TOKEN") or "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"
+TOKEN = os.getenv("GITHUB_TOKEN") or "TOKEN"
 URL_GQL = "https://api.github.com/graphql"
 URL_REST_SEARCH = "https://api.github.com/search/repositories"
 UA = "LabMediacaoGraphQL"
